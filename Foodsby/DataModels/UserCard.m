@@ -1,0 +1,28 @@
+//
+//  UserCard.m
+//  Foodsby
+//
+//  Created by ShangWang Zhang on 10/8/16.
+//  Copyright (c) 2016 ShangWang Zhang. All rights reserved.
+//
+
+#import "UserCard.h"
+
+@implementation UserCard
+
+- (id) init {
+    
+    // Call superclass's initializer
+    self = [super init];
+    
+    if( self != nil ) {
+        
+        _lastFour = nil;
+        _token = nil;
+        _cCProfileId = -1;
+    }
+    
+    return self;
+}
+
+@end
